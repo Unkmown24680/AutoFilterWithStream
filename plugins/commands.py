@@ -51,7 +51,7 @@ async def start(client, message):
                     InlineKeyboardButton('Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[                                     
                     InlineKeyboardButton('Loot Deals⚡🤩', url="https://t.me/hotflashdealss"), 
-                    InlineKeyboardButton('Movie Group📽️', url="https://t.me/requesstyourmoviehere")
+                    InlineKeyboardButton('Movie Group📽️', url="https://t.me/requestyourmoviehere")
                 ],[                                         
                     InlineKeyboardButton('Fᴇᴀᴛᴜʀᴇs💎', callback_data='help'), 
                     InlineKeyboardButton('Aʙᴏᴜᴛ🏝️', callback_data='about')
@@ -99,12 +99,15 @@ async def start(client, message):
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
                     InlineKeyboardButton('Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                ],[                                     
+                    InlineKeyboardButton('Loot Deals⚡🤩', url="https://t.me/hotflashdealss"), 
+                    InlineKeyboardButton('Movie Group📽️', url="https://t.me/requestyourmoviehere")
                 ],[                                         
-                    InlineKeyboardButton('Fᴇᴀᴛᴜʀᴇs', callback_data='help'), 
-                    InlineKeyboardButton('Aʙᴏᴜᴛ', callback_data='about')
+                    InlineKeyboardButton('Fᴇᴀᴛᴜʀᴇs💎', callback_data='help'), 
+                    InlineKeyboardButton('Aʙᴏᴜᴛ🏝️', callback_data='about')
 
                 ],[                                        
-                    InlineKeyboardButton('Aɴʏ Qᴜᴇʀʏ', url="t.me/Unknown_Support_Bot")                            
+                    InlineKeyboardButton('💎Join Backup🛡️', url="t.me/movierulzking")                            
                 ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -156,7 +159,7 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [ 
-                            InlineKeyboardButton('Fᴀsᴛ Dᴏᴡɴʟᴏᴀᴅ / Wᴀᴛᴄʜ Oɴʟɪɴᴇ', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
+                            InlineKeyboardButton('Fᴀsᴛ Dᴏᴡɴʟᴏᴀᴅ 🚀 / Wᴀᴛᴄʜ Oɴʟɪɴᴇ 🌚', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
                          ]
                         ]
                     )
