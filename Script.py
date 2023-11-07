@@ -1,15 +1,11 @@
 class script(object):
-    START_TXT = """<b>Hᴇʟʟᴏ.... {} 😎!!
+    START_TXT = """<b>✯ Hᴇʟʟᴏ.... {} 😎!!
     
-Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a>
-
-I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs & Series😈...
-
-Jᴜsᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ own Gʀᴏᴜᴘ Aɴᴅ Eɴᴊᴏʏ 😍....
-
-I can work both in pm and group😉...
-
-Don't forget to Share Me who don't know me😶‍🌫️... </b>"""
+✯ Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a>
+✯ I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs & Series😈...
+✯ Jᴜsᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ own Gʀᴏᴜᴘ Aɴᴅ Eɴᴊᴏʏ 😍....
+✯ I can work both in pm and group😉...
+✯ Don't forget to Share Me who don't know me😶‍🌫️... </b>"""
 
     HELP_TXT = """<b>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
