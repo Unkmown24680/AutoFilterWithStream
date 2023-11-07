@@ -24,9 +24,6 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('➕Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[                                     
-                    InlineKeyboardButton('Loot Deals⚡🤩', url="https://t.me/hotflashdealss"), 
-                    InlineKeyboardButton('Movie Group📽️', url="https://t.me/requesstyourmoviehere")
-                ],[                                     
                     InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ👀', url="https://t.me/movierulzking"), 
                     InlineKeyboardButton('Owner😶‍🌫️', url="https://t.me/sm_contactadmin_bot")
                 ]]
@@ -52,12 +49,15 @@ async def start(client, message):
     if len(message.command) != 2:
         buttons = [[
                     InlineKeyboardButton('Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                ],[                                     
+                    InlineKeyboardButton('Loot Deals⚡🤩', url="https://t.me/hotflashdealss"), 
+                    InlineKeyboardButton('Movie Group📽️', url="https://t.me/requesstyourmoviehere")
                 ],[                                         
-                    InlineKeyboardButton('Fᴇᴀᴛᴜʀᴇs', callback_data='help'), 
-                    InlineKeyboardButton('Aʙᴏᴜᴛ', callback_data='about')
+                    InlineKeyboardButton('Fᴇᴀᴛᴜʀᴇs💎', callback_data='help'), 
+                    InlineKeyboardButton('Aʙᴏᴜᴛ🏝️', callback_data='about')
 
                 ],[                                        
-                    InlineKeyboardButton('Aɴʏ Qᴜᴇʀʏ', url="t.me/Unknown_Support_Bot")                            
+                    InlineKeyboardButton('💎Join Backup🛡️', url="t.me/movierulzking")                            
                 ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
