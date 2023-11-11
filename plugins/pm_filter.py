@@ -1506,7 +1506,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "owner_info":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="t.me/Unknown_Support_Bot")
+                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="t.me/sm_contactadmin_bot)
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
@@ -1714,7 +1714,7 @@ async def auto_filter(client, msg, spoll=False):
     ])
 
     btn.insert(0, [
-        InlineKeyboardButton("🤔 Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ 🤔", url=f"https://t.me/+CRxXz6AAWTQ4ZWFl")
+        InlineKeyboardButton("🤔 Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ 🤔", url=f"https://t.me/movierulzking")
     ])
 
     if offset != "":
