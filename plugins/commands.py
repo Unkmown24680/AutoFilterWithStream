@@ -24,10 +24,10 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('➕Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[                                     
-                    InlineKeyboardButton('Loot Deals⚡🤩', url="https://t.me/hotflashdealss"), 
-                    InlineKeyboardButton('Movie Group📽️', url="https://t.me/requestyourmoviehere")
+                    InlineKeyboardButton('Loot Deals⚡🤩', url="https://t.me/lootdealsstech"), 
+                    InlineKeyboardButton('Movie Group📽️', url="https://t.me/anymovierequesthere")
                 ],[                                     
-                    InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ👀', url="https://t.me/movierulzking"), 
+                    InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ👀', url="https://t.me/lootdealsstech"), 
                     InlineKeyboardButton('Owner😶‍🌫️', url="https://t.me/sm_contactadmin_bot")
                 ]]
         
@@ -53,8 +53,8 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[                                     
-                    InlineKeyboardButton('Loot Deals⚡🤩', url="https://t.me/hotflashdealss"), 
-                    InlineKeyboardButton('Movie Group📽️', url="https://t.me/requestyourmoviehere")
+                    InlineKeyboardButton('Loot Deals⚡🤩', url="https://t.me/lootdealsstech"), 
+                    InlineKeyboardButton('Movie Group📽️', url="https://t.me/anymovierequesthere")
                 ],[                                         
                     InlineKeyboardButton('Fᴇᴀᴛᴜʀᴇs💎', callback_data='help'), 
                     InlineKeyboardButton('Aʙᴏᴜᴛ🏝️', callback_data='about')
