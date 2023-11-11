@@ -43,9 +43,9 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = is_enabled((environ.get("NO_RESULTS_MSG", 'False')), False)
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Rajappan")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://kipaw96209:a0CLZ056nocL9tO4@cluster0.znbnxyq.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Mahi")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Mahesh')
 
 # Others
 RD_RULES = environ.get('RD_RULES', "https://t.me/c/1845700490/3")
@@ -63,7 +63,7 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/requestyourmoviehere')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/anymovierequesthere')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/movierulzking')
 MSG_ALRT = environ.get('MSG_ALRT', 'hey...you look at me')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
